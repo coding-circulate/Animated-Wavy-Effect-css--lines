@@ -1,0 +1,126 @@
+body {
+    background: #484848;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    font-size: 50px;
+    left: 4%;
+}
+
+.wave {
+    border: 7px solid;
+    position: absolute;
+    transform: rotate(-44.5deg);
+    animation: wave 2s infinite alternate;
+}
+
+.wave:nth-child(1) {
+    width: 9.5125em;
+    height: 9.5125em;
+    bottom: -4.75625em;
+    left: 0.24375em;
+    animation-delay: 75ms;
+    border-color: transparent transparent #ffc107 #ffc107;
+    border-radius: 9.5125em;
+}
+
+.wave:nth-child(2) {
+    width: 9.025em;
+    height: 9.025em;
+    bottom: -4.5125em;
+    left: 0.4875em;
+    animation-delay: 150ms;
+    border-color: transparent transparent #ffc107 #ffc107;
+    border-radius: 9.025em;
+}
+
+.wave:nth-child(3) {
+    width: 8.5375em;
+    height: 8.5375em;
+    bottom: -4.26875em;
+    left: 0.73125em;
+    animation-delay: 225ms;
+    border-color: transparent transparent #ffc107 #ffc107;
+    border-radius: 8.5375em;
+}
+
+.wave:nth-child(4) {
+    width: 8.05em;
+    height: 8.05em;
+    bottom: -4.025em;
+    left: 0.975em;
+    animation-delay: 300ms;
+    border-color: transparent transparent #ffc107 #ffc107;
+    border-radius: 8.05em;
+}
+
+.wave:nth-child(5) {
+    width: 7.5625em;
+    height: 7.5625em;
+    bottom: -3.78125em;
+    left: 1.21875em;
+    animation-delay: 375ms;
+    border-color: transparent transparent #ffc107 #ffc107;
+    border-radius: 7.5625em;
+}
+
+.wave:nth-child(6) {
+    width: 7.075em;
+    height: 7.075em;
+    bottom: -3.5375em;
+    left: 1.4625em;
+    animation-delay: 450ms;
+    border-color: transparent transparent #ffc107 #ffc107;
+    border-radius: 7.075em;
+}
+
+.wave:nth-child(7) {
+    width: 6.5875em;
+    height: 6.5875em;
+    bottom: -3.29375em;
+    left: 1.70625em;
+    animation-delay: 525ms;
+    border-color: transparent transparent #ffc107 #ffc107;
+    border-radius: 6.5875em;
+}
+
+.wave:nth-child(8) {
+    width: 6.1em;
+    height: 6.1em;
+    bottom: -3.05em;
+    left: 1.95em;
+    animation-delay: 600ms;
+    border-color: transparent transparent #ffc107 #ffc107;
+    border-radius: 6.1em;
+}
+
+.wave:nth-child(9) {
+    width: 5.6125em;
+    height: 5.6125em;
+    bottom: -2.80625em;
+    left: 2.19375em;
+    animation-delay: 675ms;
+    border-color: transparent transparent #ffc107 #ffc107;
+    border-radius: 5.6125em;
+}
+
+.wave:nth-child(10) {
+    width: 5.125em;
+    height: 5.125em;
+    bottom: -2.5625em;
+    left: 2.4375em;
+    animation-delay: 750ms;
+    border-color: transparent transparent #ffc107 #ffc107;
+    border-radius: 5.125em;
+}
+
+
+@keyframes wave {
+    to {
+        transform: rotate(245deg);
+    }
+}
